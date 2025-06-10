@@ -11,6 +11,9 @@ function App() {
       <header>
         <h1>Aplicación: <strong>TodoEsPosible</strong></h1>
       </header>
+      <main>
+        Soy el contenido de la aplicación
+      </main>
       <footer>
         Creado por Juan David Lara Robles | copyright
       </footer>
