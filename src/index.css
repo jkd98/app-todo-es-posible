@@ -1,68 +1,48 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+/* Estilos Kawaii */
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  font-family: 'Comic Neue', cursive, sans-serif;
+  background: linear-gradient(to top left, #ffe6f0, #e6f7ff);
+  color: #4b4b4b;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.header {
+  background-color: #ffb6c1;
+  padding: 1.5rem;
+  text-align: center;
+  border-bottom: 4px dashed #ff69b4;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.header h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  text-shadow: 2px 2px #ff69b4;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.header strong {
+  font-style: italic;
+  color: #fffacd;
+}
+
+.contenido {
+  padding: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #fff0f5;
+  margin: 2rem auto;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255, 192, 203, 0.4);
+}
+
+.footer {
+  background-color: #add8e6;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #fff;
+  border-top: 4px dotted #87cefa;
+  box-shadow: 0 -4px 10px rgba(173, 216, 230, 0.5);
 }

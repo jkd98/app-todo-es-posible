@@ -8,13 +8,13 @@ function App() {
 
   return (
     <>
-      <header>
+      <header className='header'>
         <h1>Aplicación: <strong>TodoEsPosible</strong></h1>
       </header>
-      <main>
+      <main className='contenido'>
         Soy el contenido de la aplicación
       </main>
-      <footer>
+      <footer className='footer'>
         Creado por Juan David Lara Robles | copyright
       </footer>
     </>
